@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Tenant Management</string>
+    <string name="login_title">TENANT MANAGEMENT SYSTEM</string>
+    <string name="login_subtitle">Log in to continue</string>
+    <string name="login">LOGIN</string>
+    <string name="register_prompt">Don\'t have an account? Register</string>
+    <string name="help_link">Need help? Visit our website</string>
+    <string name="register_title">Create an account</string>
+    <string name="register">REGISTER</string>
+    <string name="tenant_title">Add Tenant</string>
+    <string name="tenant_name">Tenant name</string>
+    <string name="phone_number">Phone number</string>
+    <string name="monthly_rent">Monthly rent</string>
+    <string name="save_tenant">SAVE TENANT</string>
+    <string name="call_tenant">CALL TENANT</string>
+    <string name="share_tenant">SHARE TENANT</string>
+    <string name="saved_tenant">Saved tenant details will appear here.</string>
+</resources>
