@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "com.example.tenantmanagementsystemgroupa.app-debug-26:/layout_activity_register.xml.flat",
+        "source": "com.example.tenantmanagementsystemgroupa.app-main-28:/layout/activity_register.xml"
+    },
+    {
+        "merged": "com.example.tenantmanagementsystemgroupa.app-debug-26:/layout_activity_login.xml.flat",
+        "source": "com.example.tenantmanagementsystemgroupa.app-main-28:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.example.tenantmanagementsystemgroupa.app-debug-26:/layout_activity_main.xml.flat",
+        "source": "com.example.tenantmanagementsystemgroupa.app-main-28:/layout/activity_main.xml"
+    }
+]
