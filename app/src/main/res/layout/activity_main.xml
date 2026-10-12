@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable
+            name="tenant"
+            type="com.example.tenantmanagementsystemgroupa.Tenant" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@color/background"
@@ -74,7 +82,8 @@
             android:background="@color/white"
             android:minHeight="72dp"
             android:padding="16dp"
-            android:text="@string/saved_tenant"
+            android:text="@{tenant.summary()}"
+            android:hint="@string/saved_tenant"
             android:textSize="16sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -91,3 +100,4 @@
             app:layout_constraintTop_toBottomOf="@id/tenantResultTextView" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
