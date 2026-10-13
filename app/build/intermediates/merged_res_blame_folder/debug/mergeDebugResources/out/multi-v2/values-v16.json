@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.tenantmanagementsystemgroupa.app-mergeDebugResources-24:/values-v16/values-v16.xml",
+            "outputFile": "com.example.tenantmanagementsystemgroupa.app-mergeDebugResources-47:/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\hp\\.gradle\\caches\\8.13\\transforms\\01135c5475c2a6cec3da3bc983a4eef1\\transformed\\appcompat-1.7.1\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\hp\\.gradle\\caches\\8.13\\transforms\\4e280267ecbb634044cc6fbbfc899bee\\transformed\\appcompat-1.8.0\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

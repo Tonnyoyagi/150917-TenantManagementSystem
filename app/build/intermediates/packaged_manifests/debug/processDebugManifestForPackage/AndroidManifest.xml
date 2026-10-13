@@ -22,6 +22,7 @@
         android:icon="@android:drawable/ic_menu_myplaces"
         android:label="Tenant Management"
         android:supportsRtl="true"
+        android:testOnly="true"
         android:theme="@style/Theme.TenantManagement" >
         <activity
             android:name="com.example.tenantmanagementsystemgroupa.RegisterActivity"
@@ -56,6 +57,13 @@
                 android:name="androidx.profileinstaller.ProfileInstallerInitializer"
                 android:value="androidx.startup" />
         </provider>
+
+        <uses-library
+            android:name="androidx.window.extensions"
+            android:required="false" />
+        <uses-library
+            android:name="androidx.window.sidecar"
+            android:required="false" />
 
         <receiver
             android:name="androidx.profileinstaller.ProfileInstallReceiver"
