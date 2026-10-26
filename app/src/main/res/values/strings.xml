@@ -14,4 +14,6 @@
     <string name="save_tenant">SAVE TENANT</string>
     <string name="call_tenant">CALL TENANT</string>
     <string name="saved_tenant">Saved tenant details will appear here.</string>
+    <string name="dashboard_tenant_count">Tenants\n%1$d</string>
+    <string name="dashboard_total_rent">Total rent\nKSh %1$,.0f</string>
 </resources>

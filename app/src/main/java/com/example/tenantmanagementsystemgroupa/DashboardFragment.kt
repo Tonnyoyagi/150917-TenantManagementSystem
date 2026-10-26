@@ -34,8 +34,8 @@ class DashboardFragment : Fragment() {
 
         val tenantCount = TenantRepository.tenants.size
         val totalRent = TenantRepository.totalRent()
-        binding.tenantCountTextView.text = "Tenants\n$tenantCount"
-        binding.totalRentTextView.text = "Total rent\nKSh %,.0f".format(totalRent)
+        binding.tenantCountTextView.text = getString(R.string.dashboard_tenant_count, tenantCount)
+        binding.totalRentTextView.text = getString(R.string.dashboard_total_rent, totalRent)
 
         binding.addTenantButton.setOnClickListener {
             val action = DashboardFragmentDirections.actionDashboardFragmentToAddTenantFragment()
